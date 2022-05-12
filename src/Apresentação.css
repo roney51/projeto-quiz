@@ -1,0 +1,29 @@
+.corpo  {
+    align-items: center;
+}
+
+.serie{
+    width: 1000px;
+    display: flex;
+    border: solid 1px #000;
+    padding: 100px; 
+    cursor: pointer;
+    transition: 1s;
+}
+
+.serie:hover{
+    transform: scale(1.05);
+}
+
+.desenho{
+    width: 1000px;
+    display: flex;
+    border: solid 1px #000;
+    padding: 100px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.desenho:hover{
+    transform: scale(1.05);
+}
