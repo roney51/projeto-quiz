@@ -1,4 +1,5 @@
 import Quiz from "./Quiz.js";
+import Quiz1 from "./Quiz.js";
 
 const Apresentacao = (props) => {
   
@@ -8,12 +9,15 @@ const Apresentacao = (props) => {
         <div className="corpo">
 
       <h1> ROTANIKA.TV </h1>
-      <p> QUAL SERÁ SUA ESCOLHA ?</p>
+      <div onClick={()=> document.getElementsByClassName("serie", "desenho")[0].style.display = "block"} className="Start"> COMEÇAR </div>
+      <p className="p"> QUAL SERÁ SUA ESCOLHA ?</p>
       <center>
-        <div onClick={()=> alteraTela(<Quiz alteraTela={alteraTela}/>) } class="serie"> - SÉRIES </div>
+      <div className="display">
+        <div onClick={()=>  alteraTela(<Quiz alteraTela={alteraTela}/>) } class="serie"> - SÉRIES </div>
         <br>
         </br>
-        <div onClick={()=> alteraTela(<Quiz alteraTela={alteraTela}/>) } class="desenho"> - DESENHOS  </div>
+        <div onClick={()=> alteraTela(<Quiz1 alteraTela={alteraTela}/>) } class="desenho"> - DESENHOS  </div>
+      </div>
       </center>
     </div>
      );

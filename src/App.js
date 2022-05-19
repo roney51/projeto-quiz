@@ -1,23 +1,16 @@
-import  './Quiz.css';
-import React, {useState} from 'react';
-import Apresentacao from './Apresentacao';
+import React, { useState } from 'react';
+import Inicio from './components/Inicio.js';
 
 function App() {
- 
-  const[ tela, alteraTela ] = useState(null);
-  require("./App.css")
+  
+    const [tela, alteraTela] = useState(null);
+
   if(tela == null){
-    alteraTela(<Apresentacao alteraTela={alteraTela}/>);
+    alteraTela(<Inicio alteraTela={alteraTela}/>)
   }
- 
- 
-  require("./Quiz.css")
   return (
-
-    <div className="corpo">
-
-    {tela}
-    
+    <div>
+      {tela}
     </div>
   );
 }

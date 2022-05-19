@@ -6,13 +6,13 @@ const Quiz = (props) => {
 
     const alteraTela = props.alteraTela;
 
-    const [etapa, alteraEtapa] = React.useState(0);
+    const [etapa, alteraEtapa] = useState(0);
 
     const [pontos, alteraPontos] = React.useState(0);
 
     const perguntas = [
         {
-            pergunta: "Qual a cor do cavalo Branco de Napoleão?",
+            pergunta: "Corinthians é o maior time do mundo?",
             respostas: ["Preto","Branco","Amarelo","Azul"],
             correta: 0
         },

@@ -3,12 +3,13 @@
 }
 
 .serie{
-    width: 1000px;
+    width: 500px;
     display: flex;
     border: solid 1px #000;
     padding: 100px; 
     cursor: pointer;
     transition: 1s;
+    margin: 10px;
 }
 
 .serie:hover{
@@ -16,14 +17,24 @@
 }
 
 .desenho{
-    width: 1000px;
+    width: 500px;
     display: flex;
     border: solid 1px #000;
     padding: 100px;
     cursor: pointer;
     transition: 1s;
+    margin: 10px;
 }
 
 .desenho:hover{
     transform: scale(1.05);
+}
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.Start{
+    cursor: pointer;
 }

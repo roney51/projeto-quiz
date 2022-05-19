@@ -1,0 +1,15 @@
+.Content h1{
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: none;
+    text-shadow: none;
+    text-align: left;
+}
+
+.Content{
+    margin: 100px;
+    padding: 30px;
+}

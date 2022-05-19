@@ -1,0 +1,62 @@
+#start{
+    background-image: url('../../assets/img/back.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+
+    section{
+        height: 80%;
+        width: 35%;
+        margin: 360px;
+        
+    }
+
+    .icone{
+        color: $coor;
+        text-align: center;
+    }
+
+    .icone:hover{
+        animation-timing-function: ease-in-out;
+        animation: zoomIn;
+        animation-duration: 2s;
+    }
+
+    h1{
+        font-size: $lg;
+        font-weight: bold;
+        text-align: center;
+        color: $branco;
+    }
+
+    .start{
+        width: 90px;
+        padding: 90px;
+    }
+
+    .botao-start{
+       background: $verde; 
+       color: $preto;
+       font-weight: bold;
+       font-size: large;
+       cursor: pointer;
+       border-radius: 30px;
+       padding: $normal;
+       text-align: center;
+       display: block;
+       transition: 0.2s linear all;
+    }
+
+    .botao-start:hover{
+        background: darken($verde, 10%);
+        box-shadow: $sombra;
+        transform: $escala;
+    }
+
+    .desenho{
+      transition: none;
+    }
+}

@@ -1,0 +1,35 @@
+#questao{
+    background-image: url('../../assets/img/fundoper.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    .Content{
+        width: 90%;
+    }
+
+    .imagem{
+        width: 300px;
+        height: 300px;
+    }
+
+    .Content img{
+        width: 700px;
+        height: 390px;
+        margin-top: 0;
+        justify-items: right;
+        
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+    
+    .img{
+        border: rgba(255, 255, 255, 0);
+    }
+}
+
+.finalPage{
+    color: #fff;
+}
